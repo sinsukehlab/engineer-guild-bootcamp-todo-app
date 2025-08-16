@@ -85,3 +85,30 @@ main {
   background: #1d5bbf;
   box-shadow: 0 5px 15px #1d5bbf66;
 }
+
+.filter-section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.filter-button {
+  background: #f0f0f0;
+  color: #666;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.filter-button:hover {
+  background: #e0e0e0;
+  color: #333;
+}
+
+.filter-button.active {
+  background: #2575fc;
+  color: white;
+}
