@@ -292,3 +292,61 @@ main {
     transform: translateX(20px);
   }
 }
+
+@media (max-width: 768px) {
+  .container {
+    margin: 10px;
+    border-radius: 15px;
+  }
+
+  header {
+    padding: 30px 20px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  .filter-section {
+    flex-wrap: wrap;
+  }
+
+  .task-summary {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .action-section {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  .input-section {
+    flex-direction: column;
+    border-radius: 15px;
+  }
+
+  .task-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .task-actions {
+    align-self: flex-end;
+  }
+}
