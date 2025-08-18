@@ -20,7 +20,7 @@
         </section>
         <section class="filter-section">
           <button class="filter-button active" data-filter="all">全て</button>
-          <button class="filter-button" data-filter="active">アクティブ</button>
+          <button class="filter-button" data-filter="active">進行中</button>
           <button class="filter-button" data-filter="completed">完了</button>
         </section>
         <section class="task-list" id="taskList">
@@ -40,6 +40,11 @@
               <button class="delete-button"><i class="fa-solid fa-trash"></i></button>
             </section>
           </article>
+        </section>
+        <section class="task-summary">
+          <p>合計タスク数: <span id="totalTasks">2</span></p>
+          <p>完了タスク数: <span id="completedTasks">1</span></p>
+          <p>進行中タスク数: <span id="activeTasks">1</span></p>
         </section>
       </main>
     </article>

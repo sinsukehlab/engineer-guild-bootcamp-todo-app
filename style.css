@@ -191,3 +191,27 @@ main {
   background: #e04343;
   transform: scale(1.1);
 }
+
+.task-summary {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background: #f0f0f0;
+}
+
+.task-summary p {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+  gap: 5px;
+  color: #333;
+}
+
+.task-summary p span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2575fc;
+}
