@@ -215,3 +215,53 @@ main {
   font-weight: bold;
   color: #2575fc;
 }
+
+.action-section {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.action-button {
+  display: flex;
+  align-items: center;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 20px;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.action-button:hover {
+  transform: translateY(-2px);
+}
+
+#completeAllButton {
+  background: #28a745;
+}
+
+#completeAllButton:hover {
+  background: #218838;
+  box-shadow: 0 5px 15px #21883866;
+}
+
+#clearCompletedButton {
+  background: #ffc107;
+}
+
+#clearCompletedButton:hover {
+  background: #e0a800;
+  box-shadow: 0 5px 15px #e0a80066;
+}
+
+#clearAllButton {
+  background: #ff4d4d;
+}
+
+#clearAllButton:hover {
+  background: #e04343;
+  box-shadow: 0 5px 15px #e0434366;
+}
