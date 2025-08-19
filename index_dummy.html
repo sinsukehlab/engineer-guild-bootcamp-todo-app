@@ -24,11 +24,27 @@
           <button class="filter-button" data-filter="completed">完了</button>
         </section>
         <section class="task-list" id="taskList">
+          <article class="task-item">
+            <input type="checkbox" class="task-checkbox" />
+            <span class="task-text">タスク1</span>
+            <section class="task-actions">
+              <button class="edit-button"><i class="fa-solid fa-pen-to-square"></i></button>
+              <button class="delete-button"><i class="fa-solid fa-trash"></i></button>
+            </section>
+          </article>
+          <article class="task-item completed">
+            <input type="checkbox" class="task-checkbox" checked />
+            <span class="task-text">タスク2</span>
+            <section class="task-actions">
+              <button class="edit-button"><i class="fa-solid fa-pen-to-square"></i></button>
+              <button class="delete-button"><i class="fa-solid fa-trash"></i></button>
+            </section>
+          </article>
         </section>
         <section class="task-summary">
-          <p>合計タスク数: <span id="totalTasks">0</span></p>
-          <p>完了タスク数: <span id="completedTasks">0</span></p>
-          <p>進行中タスク数: <span id="activeTasks">0</span></p>
+          <p>合計タスク数: <span id="totalTasks">2</span></p>
+          <p>完了タスク数: <span id="completedTasks">1</span></p>
+          <p>進行中タスク数: <span id="activeTasks">1</span></p>
         </section>
         <section class="action-section">
           <button id="completeAllButton" class="action-button"><i class="fa-solid fa-check"></i> 全て完了にする</button>
@@ -37,6 +53,5 @@
         </section>
       </main>
     </article>
-    <script src="script.js"></script>
   </body>
 </html>
